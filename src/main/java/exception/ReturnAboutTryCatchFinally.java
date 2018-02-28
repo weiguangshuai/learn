@@ -12,7 +12,7 @@ public class ReturnAboutTryCatchFinally {
         System.out.println(tryFinally());
     }
 
-    public int tryFinally() {
+    private int tryFinally() {
         try {
             return 1;
         } finally {
@@ -25,7 +25,7 @@ public class ReturnAboutTryCatchFinally {
         System.out.println(tryCatchFinally());
     }
 
-    public int tryCatchFinally() {
+    private int tryCatchFinally() {
         try {
             int i = 10 / 0;
             return 1;
