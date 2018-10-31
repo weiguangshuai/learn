@@ -1,5 +1,6 @@
 package nio.channel;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -11,20 +12,22 @@ import java.util.Random;
 
 /**
  * @author weigs
- * @date 2017/12/20 0020
+ * @date 2018/9/10 0010
  */
-public class Marketing {
+public class CommonMarketing {
+
+
     public static void main(String[] args) throws IOException {
         long beginTime = System.currentTimeMillis();
         int reps = 100000;
-        FileOutputStream fileOutputStream = new FileOutputStream("balabala.txt");
-        GatheringByteChannel gatheringByteChannel = fileOutputStream.getChannel();
-        ByteBuffer[] bs = utterBS(reps);
-        while (gatheringByteChannel.write(bs) > 0) {
+        FileOutputStream fileOutputStream = new FileOutputStream("balabala.txt", true);
+        String[] strs = utterBS(reps);
+        for (String string : strs) {
+            fileOutputStream.write(string.getBytes("UTF-8"));
+
         }
         long endTime = System.currentTimeMillis();
         System.out.println("time:" + (endTime - beginTime));
-
     }
 
     private static String[] col1 = {
@@ -43,9 +46,10 @@ public class Marketing {
             "functionalities", "web services", "infrastructures"
     };
 
+
     private static String newline = System.getProperty("line.separator");
 
-    private static ByteBuffer[] utterBS(int num) throws UnsupportedEncodingException {
+    private static String[] utterBS(int num) throws UnsupportedEncodingException {
         List list = new LinkedList();
         for (int i = 0; i < num; i++) {
             list.add(pickRandom(col1, " "));
@@ -53,20 +57,16 @@ public class Marketing {
             list.add(pickRandom(col3, newline));
         }
 
-        ByteBuffer[] byteBuffers = new ByteBuffer[list.size()];
-        list.toArray(byteBuffers);
-        return byteBuffers;
+        String[] strings = new String[list.size()];
+        list.toArray(strings);
+        return strings;
     }
 
     private static Random random = new Random();
 
-    private static ByteBuffer pickRandom(String[] strings, String suffix) throws UnsupportedEncodingException {
+    private static String pickRandom(String[] strings, String suffix) throws UnsupportedEncodingException {
         String string = strings[random.nextInt(strings.length)];
-        int total = string.length() + suffix.length();
-        ByteBuffer byteBuffer = ByteBuffer.allocate(total);
-        byteBuffer.put(string.getBytes("US-ASCII"));
-        byteBuffer.put(suffix.getBytes("US-ASCII"));
-        byteBuffer.flip();
-        return byteBuffer;
+        return string;
     }
+
 }

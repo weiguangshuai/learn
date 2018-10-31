@@ -19,6 +19,18 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.40</version>
         </dependency>
+        <!--rabbitmq客户端依赖-->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+        <!--netty-->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.20.Final</version>
+        </dependency>
     </dependencies>
 
 </project>
