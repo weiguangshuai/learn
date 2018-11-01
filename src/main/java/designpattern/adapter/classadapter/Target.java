@@ -1,7 +1,7 @@
 package designpattern.adapter.classadapter;
 
 /**
- * 对象适配器
+ * 类适配器
  *
  * @author weigs
  * @date 2018/3/1 0001
