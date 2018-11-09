@@ -22,6 +22,10 @@ import java.util.Arrays;
 public class NonConfigurationCreateTest {
     @Test
     public void test() {
+
+        /*
+        以下代码等价于shiro-config.ini配置文件
+         */
         DefaultSecurityManager securityManager = new DefaultSecurityManager();
         //设置authenticator
         ModularRealmAuthenticator authenticator = new ModularRealmAuthenticator();
@@ -38,7 +42,7 @@ public class NonConfigurationCreateTest {
         druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         druidDataSource.setUrl("jdbc:mysql://localhost:3306/shiro");
         druidDataSource.setUsername("root");
-        druidDataSource.setPassword("weigs");
+        druidDataSource.setPassword("mysql");
 
         JdbcRealm jdbcRealm = new JdbcRealm();
         jdbcRealm.setDataSource(druidDataSource);
