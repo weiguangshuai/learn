@@ -21,8 +21,6 @@ public class PasswordTest {
         Subject subject = ShiroUtil.login("classpath:shiro-passwordservice.ini",
             "weigs", "123");
     }
-
-
     @Test
     public void testPasswordServiceWithJdbcRealm() {
 

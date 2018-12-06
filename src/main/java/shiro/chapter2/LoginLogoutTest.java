@@ -29,8 +29,6 @@ public class LoginLogoutTest {
 
     @Test
     public void testHelloWorld() {
-
-
         //获取securityManager工厂
         Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
 
