@@ -5,7 +5,7 @@ package designpattern.decorator;
  *
  * @author weigs
  * @date 2018/3/5 0005
- */
+        */
 public interface Transform {
     void move();
 }
