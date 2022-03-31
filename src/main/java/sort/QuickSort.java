@@ -9,7 +9,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] array = {2, 1, 3, 5, 2, 6, 4, 8, 9};
-        sort(array, 0, array.length - 1);
+        test(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
     }
 
@@ -42,5 +42,32 @@ public class QuickSort {
         //将基准值左右两边的数继续按照上面的规则排序
         sort(array, low, left - 1);
         sort(array, left + 1, high);
+    }
+
+    public static void test(int[] array, int low, int high) {
+        if (array.length <= 0) {
+            return;
+        }
+        if (low >= high) {
+            return;
+        }
+        int temp, left, right;
+        temp = array[low];
+        left = low;
+        right = high;
+        while (left < right) {
+            while (left < right && array[right] >= temp) {
+                right--;
+            }
+            array[left] = array[right];
+            while (left < right && array[left] <= temp) {
+                left++;
+            }
+            array[right] = array[left];
+        }
+        array[left] = temp;
+
+        test(array, low, left - 1);
+        test(array, left + 1, high);
     }
 }

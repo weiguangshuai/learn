@@ -26,4 +26,22 @@ public class InsertionSort {
             }
         }
     }
+
+    /**
+     * 改进版，减少循环次数
+     *
+     * @param array
+     */
+    public static void sortPro(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (array[j - 1] <= array[j]) {
+                    break;
+                }
+                int temp = array[j];
+                array[j] = array[j - 1];
+                array[j - 1] = temp;
+            }
+        }
+    }
 }

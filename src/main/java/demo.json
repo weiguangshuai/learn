@@ -1,0 +1,460 @@
+{
+  "headRegionInfo": {
+    "countRepayOrder": 7,
+    "pendingAmountStr": "8316.52",
+    "repayRuleTips": "这个是文案",
+    "totalLeftAmount": 831652
+  },
+  "middleRegionInfo": {
+    "pendingDetailCards": [
+      {
+        "businessType": "CASH",
+        "leftAmount": 209341,
+        "leftAmountStr": "2,093.41",
+        "lendDate": "2021年09月27日",
+        "lendDesc": "借 200000 | 随借随还",
+        "orderNo": "CH202109271000048",
+        "pendingDetails": [
+          {
+            "desc": "本⾦331.60 + 利息4.17+担保费12.39",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34816,
+            "leftAmountStr": "348.16",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480600",
+            "pendingRepayDate": "2021/10/27",
+            "stageNo": 1,
+            "tag": {
+              "desc": "已逾期141天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.29 + 利息3.48+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480601",
+            "pendingRepayDate": "2021/11/27",
+            "stageNo": 2,
+            "tag": {
+              "desc": "已逾期110天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.99 + 利息2.78+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480602",
+            "pendingRepayDate": "2021/12/27",
+            "stageNo": 3,
+            "tag": {
+              "desc": "已逾期80天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦333.68 + 利息2.09+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480603",
+            "pendingRepayDate": "2022/01/27",
+            "stageNo": 4,
+            "tag": {
+              "desc": "已逾期49天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦334.38 + 利息1.39+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480604",
+            "pendingRepayDate": "2022/02/27",
+            "stageNo": 5,
+            "tag": {
+              "desc": "已逾期18天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦335.06 + 利息0.70+担保费13.29",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202109271000048",
+            "pendingNo": "CH2021092710000480605",
+            "pendingRepayDate": "2022/03/27",
+            "stageNo": 6
+          }
+        ],
+        "pendingRepayDesc": "剩6期/分6期",
+        "specialTags": [
+          {
+            "desc": "有逾期",
+            "status": "EXCEED"
+          }
+        ],
+        "tradeDate": 1632728781000
+      },
+      {
+        "businessType": "CASH",
+        "leftAmount": 87262,
+        "leftAmountStr": "872.62",
+        "lendDate": "2021年10月15日",
+        "lendDesc": "借 100000 | 随借随还",
+        "orderNo": "CH202110151000041",
+        "pendingDetails": [
+          {
+            "desc": "本⾦163.35 + 利息11.18+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202110151000041",
+            "pendingNo": "CH2021101510000410601",
+            "pendingRepayDate": "2021/12/15",
+            "stageNo": 2,
+            "tag": {
+              "desc": "已逾期92天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦165.53 + 利息9.00+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202110151000041",
+            "pendingNo": "CH2021101510000410602",
+            "pendingRepayDate": "2022/01/15",
+            "stageNo": 3,
+            "tag": {
+              "desc": "已逾期61天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦167.74 + 利息6.79+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202110151000041",
+            "pendingNo": "CH2021101510000410603",
+            "pendingRepayDate": "2022/02/15",
+            "stageNo": 4,
+            "tag": {
+              "desc": "已逾期30天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦169.97 + 利息4.56+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202110151000041",
+            "pendingNo": "CH2021101510000410604",
+            "pendingRepayDate": "2022/03/15",
+            "stageNo": 5,
+            "tag": {
+              "desc": "已逾期2天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦172.21 + 利息2.29+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17450,
+            "leftAmountStr": "174.50",
+            "orderNo": "CH202110151000041",
+            "pendingNo": "CH2021101510000410605",
+            "pendingRepayDate": "2022/04/15",
+            "stageNo": 6
+          }
+        ],
+        "pendingRepayDesc": "剩5期/分6期",
+        "specialTags": [
+          {
+            "desc": "有逾期",
+            "status": "EXCEED"
+          }
+        ],
+        "tradeDate": 1634280252000
+      },
+      {
+        "businessType": "CASH",
+        "leftAmount": 209341,
+        "leftAmountStr": "2,093.41",
+        "lendDate": "2021年10月20日",
+        "lendDesc": "借 200000 | 随借随还",
+        "orderNo": "CH202110201000072",
+        "pendingDetails": [
+          {
+            "desc": "本⾦331.60 + 利息4.17+担保费12.39",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34816,
+            "leftAmountStr": "348.16",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720600",
+            "pendingRepayDate": "2021/11/20",
+            "stageNo": 1,
+            "tag": {
+              "desc": "已逾期117天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.29 + 利息3.48+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720601",
+            "pendingRepayDate": "2021/12/20",
+            "stageNo": 2,
+            "tag": {
+              "desc": "已逾期87天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.99 + 利息2.78+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720602",
+            "pendingRepayDate": "2022/01/20",
+            "stageNo": 3,
+            "tag": {
+              "desc": "已逾期56天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦333.68 + 利息2.09+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720603",
+            "pendingRepayDate": "2022/02/20",
+            "stageNo": 4,
+            "tag": {
+              "desc": "已逾期25天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦334.38 + 利息1.39+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720604",
+            "pendingRepayDate": "2022/03/20",
+            "stageNo": 5
+          },
+          {
+            "desc": "本⾦335.06 + 利息0.70+担保费13.29",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000072",
+            "pendingNo": "CH2021102010000720605",
+            "pendingRepayDate": "2022/04/20",
+            "stageNo": 6
+          }
+        ],
+        "pendingRepayDesc": "剩6期/分6期",
+        "specialTags": [
+          {
+            "desc": "有逾期",
+            "status": "EXCEED"
+          }
+        ],
+        "tradeDate": 1634724068000
+      },
+      {
+        "businessType": "CASH",
+        "leftAmount": 209341,
+        "leftAmountStr": "2,093.41",
+        "lendDate": "2021年10月20日",
+        "lendDesc": "借 200000 | 随借随还",
+        "orderNo": "CH202110201000077",
+        "pendingDetails": [
+          {
+            "desc": "本⾦331.60 + 利息4.17+担保费12.39",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34816,
+            "leftAmountStr": "348.16",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770600",
+            "pendingRepayDate": "2021/11/20",
+            "stageNo": 1,
+            "tag": {
+              "desc": "已逾期117天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.29 + 利息3.48+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770601",
+            "pendingRepayDate": "2021/12/20",
+            "stageNo": 2,
+            "tag": {
+              "desc": "已逾期87天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦332.99 + 利息2.78+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770602",
+            "pendingRepayDate": "2022/01/20",
+            "stageNo": 3,
+            "tag": {
+              "desc": "已逾期56天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦333.68 + 利息2.09+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770603",
+            "pendingRepayDate": "2022/02/20",
+            "stageNo": 4,
+            "tag": {
+              "desc": "已逾期25天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦334.38 + 利息1.39+担保费13.28",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770604",
+            "pendingRepayDate": "2022/03/20",
+            "stageNo": 5
+          },
+          {
+            "desc": "本⾦335.06 + 利息0.70+担保费13.29",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 34905,
+            "leftAmountStr": "349.05",
+            "orderNo": "CH202110201000077",
+            "pendingNo": "CH2021102010000770605",
+            "pendingRepayDate": "2022/04/20",
+            "stageNo": 6
+          }
+        ],
+        "pendingRepayDesc": "剩6期/分6期",
+        "specialTags": [
+          {
+            "desc": "有逾期",
+            "status": "EXCEED"
+          }
+        ],
+        "tradeDate": 1634724783000
+      },
+      {
+        "businessType": "CASH",
+        "leftAmount": 52356,
+        "leftAmountStr": "523.56",
+        "lendDate": "2021年11月03日",
+        "lendDesc": "借 100000 | 随借随还",
+        "orderNo": "CH202111031000100",
+        "pendingDetails": [
+          {
+            "desc": "本⾦167.74 + 利息6.79+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202111031000100",
+            "pendingNo": "CH2021110310001000603",
+            "pendingRepayDate": "2022/03/03",
+            "stageNo": 4,
+            "tag": {
+              "desc": "已逾期14天",
+              "status": "EXCEED"
+            }
+          },
+          {
+            "desc": "本⾦169.97 + 利息4.56+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17453,
+            "leftAmountStr": "174.53",
+            "orderNo": "CH202111031000100",
+            "pendingNo": "CH2021110310001000604",
+            "pendingRepayDate": "2022/04/03",
+            "stageNo": 5
+          },
+          {
+            "desc": "本⾦172.21 + 利息2.29+担保费0.00",
+            "gray": false,
+            "grayTips": "",
+            "leftAmount": 17450,
+            "leftAmountStr": "174.50",
+            "orderNo": "CH202111031000100",
+            "pendingNo": "CH2021110310001000605",
+            "pendingRepayDate": "2022/05/03",
+            "stageNo": 6
+          }
+        ],
+        "pendingRepayDesc": "剩3期/分6期",
+        "specialTags": [
+          {
+            "desc": "有逾期",
+            "status": "EXCEED"
+          }
+        ],
+        "tradeDate": 1635932463000
+      }
+    ]
+  }
+}
