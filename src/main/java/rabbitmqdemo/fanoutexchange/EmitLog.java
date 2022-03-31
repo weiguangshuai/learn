@@ -24,6 +24,8 @@ public class EmitLog {
         Connection connection = connectionFactory.newConnection();
         Channel channel = connection.createChannel();
 
+
+
         //声明路由以及路由的类型
         channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.FANOUT);
 
