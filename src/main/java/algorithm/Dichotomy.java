@@ -8,8 +8,8 @@ public class Dichotomy {
     public static void main(String[] args) {
         int[] tmp = {1, 2, 2, 5, 7, 8, 9};//7
 //        System.out.println(dichotomyIndex(tmp, 9));
-//        System.out.println(dichotomyIndexLeft(tmp, 10));
-        System.out.println(dichotomyIndexRight(tmp, 9));
+        System.out.println(dichotomyIndexLeft(tmp, 10));
+//        System.out.println(dichotomyIndexRight(tmp, 9));
     }
 
     /**
@@ -50,7 +50,7 @@ public class Dichotomy {
         while (left <= right) {
             int mid = (left + right) / 2;
             if (array[mid] == result) {
-                right = mid;
+                right = mid - 1;
             }
             if (array[mid] > result) {
                 right = mid - 1;
@@ -58,6 +58,10 @@ public class Dichotomy {
             if (array[mid] < result) {
                 left = mid + 1;
             }
+        }
+        // 判断 target 是否存在于 nums 中
+        if (left < 0 || left >= array.length) {
+            return -1;
         }
         return array[left] == result ? left : -1;
     }
